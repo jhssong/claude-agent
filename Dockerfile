@@ -42,6 +42,8 @@ RUN usermod -l claude -d /home/claude -m node && \
 
 ENV JAVA_HOME=/usr/lib/jvm/temurin-21-jdk-amd64
 ENV PATH="$JAVA_HOME/bin:$PATH"
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
 
 WORKDIR /workspace
 
