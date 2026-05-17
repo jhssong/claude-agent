@@ -1,7 +1,7 @@
 services:
-  agent-name:
+  claude-agent:
     build: .
-    container_name: agent-name
+    container_name: claude-agent
     restart: unless-stopped
     working_dir: /workspace
     stdin_open: true
