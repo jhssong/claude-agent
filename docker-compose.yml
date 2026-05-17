@@ -1,0 +1,13 @@
+services:
+  agent-name:
+    build: .
+    container_name: agent-name
+    restart: unless-stopped
+    working_dir: /workspace
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/workspace
+      - .claude:/home/claude/.claude
+      - .claude/.claude.json:/home/claude/.claude.json
+      - .config/gh:/home/claude/.config/gh
