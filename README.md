@@ -50,6 +50,8 @@ claude
 gh auth login
 ```
 
+[Claude Code Docs](https://code.claude.com/docs/ko/channels#discord)를 참고하여 디스코드 인증도 진행합니다.
+
 인증이 완료되면 `exit`으로 컨테이너 셸을 나옵니다. 이후 재기동 시에는 인증 정보가 볼륨에 유지되므로 이 단계를 반복할 필요가 없습니다.
 
 ### 4. 에이전트 시작
