@@ -9,6 +9,7 @@ Docker 컨테이너 안에서 Claude Code를 실행하고, Discord 채널을 통
 ## 사전 준비
 
 - Docker / Docker Compose
+- (선택) Docker Compose 파일에서 container_name을 프로젝트에 맞게 수정
 - (선택) Discord 봇 토큰 및 채널 설정 — Discord 연동을 사용할 경우에만 필요
 
 ## 디렉토리 구조

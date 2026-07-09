@@ -1,0 +1,9 @@
+.claude/*
+!.claude/.claude.json
+!.claude/settings.json
+
+.config/*
+!.config/gh/.gitkeep
+
+workspace/*
+!workspace/run.sh
